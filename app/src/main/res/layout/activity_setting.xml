@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/page">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location" android:textSize="16dp" android:textColor="#333"/>
+    <EditText android:id="@+id/location" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="请输入地理位置" android:textSize="13dp"/>
+</LinearLayout>
+<TextView android:layout_width="match_parent" android:layout_height="0.8dp" android:background="#aaa"/>
+<LinearLayout android:id="@+id/unit" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unit" android:textSize="16dp" android:textColor="#333"/>
+    <TextView android:id="@+id/unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="摄氏度" android:textSize="12dp"/>
+</LinearLayout>
+<TextView android:layout_width="match_parent" android:layout_height="0.8dp" android:background="#aaa"/>
+<LinearLayout android:id="@+id/send" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启通知" android:textSize="16dp" android:textColor="#333"/>
+    <TextView android:id="@+id/send_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="是" android:textSize="12dp"/>
+</LinearLayout>
+<TextView android:layout_width="match_parent" android:layout_height="0.8dp" android:background="#aaa"/>
+</LinearLayout>

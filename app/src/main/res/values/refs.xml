@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    别名资源指向了单版面布局资源文件-->
+    <item name="activity_masterdetail" type="layout">
+        @layout/activity_main
+    </item>
+</resources>

@@ -1,5 +1,5 @@
 # WeatherBroadcast
-一个Android天气预报APP**(详细介绍请移步我的博客：https://www.cocobronie.cn/)**
+一个Android天气预报APP **(详细介绍请移步我的博客：https://www.cocobronie.cn/)**
 
 # 一、主要功能
 
